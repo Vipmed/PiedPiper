@@ -284,7 +284,8 @@ em {
 
   .header {
     max-width: 550px;
-  }
+    position: static;
+    }
 
   .container {
     width: 100%;
