@@ -1,0 +1,281 @@
+/*
+.container {
+    max-width: auto px;
+}
+
+.header {
+    background-color: #007765;
+    position: fixed;
+    max-width: 1219px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.main_container {
+    width: auto;
+    max-width: 1219px;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+
+*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #007765;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 21;
+}
+
+.container {
+  width: auto;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header_ol {
+  display: flex;
+  gap: 8px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.main_img {
+  background: url(../img/title.png) no-repeat;
+  width: auto;
+  height: 403px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.main_title {
+  /*font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 160px auto;*/
+  position: absolute;
+  height: 83px;
+  width: 1219px;
+  margin-top: 160px;
+  margin-left: 50%;
+  margin-right: -50%;
+  margin-top: 220px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  color: white;
+}
+
+.sub_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding: 48px 55px 0;
+}
+
+.main_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 92px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.quote_img {
+  background: url(../img/quote.png) no-repeat;
+  width: auto;
+  height: 483px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.quote {
+  position: absolute;
+  height: 83px;
+  width: 1219px;
+  margin-top: 160px;
+  margin-left: 50%;
+  margin-right: -50%;
+  margin-top: 220px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+
+.pretitle {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 48px auto 16px;
+}
+
+.ppc_logo {
+  margin: 16px 48px 35px 55px;
+}
+
+.introduction_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction_1text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  max-width: 930px;
+  margin: 16px 71px 40px 48px;
+}
+
+.introduction_2_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  max-width: 1110px;
+  margin: 35px 54px 92px 55px;
+}
+
+.founders {
+  background: #eeeeee;
+}
+
+.team {
+  padding-top: 32px;
+}
+
+.h3 {
+  /*font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    padding: 12px auto 0;
+    text-align: center;*/
+  font-weight: 700; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 28px; /*Задаёт высоту строки текста*/
+  color: #007765; /*Определяет цвет текста элемента*/
+  padding-top: 12px;
+}
+
+em {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.first {
+  margin: 155px 30px 30px auto;
+}
+
+.founders_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.flex1 {
+  flex-flow: column wrap;
+  gap: 30px;
+}
+
+/*.item{
+    width: 350px;
+    height: 283px;
+    align-items: center;
+
+}*/
+
+.figure {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 350px; /*Устанавливает ширину содержимого элемента*/
+  height: 283px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  flex-flow: column wrap;
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+
+.foto {
+  width: 168px; /*Устанавливает ширину содержимого элемента*/
+  height: 168px; /*Устанавливает высоту содержимого элемента*/
+}
+
+.footer {
+  background: #333333;
+}
+
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 540px;
+    padding: 48px 339px 64px 340px;
+}
